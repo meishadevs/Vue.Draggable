@@ -23,17 +23,17 @@ https://david-desmaisons.github.io/draggable-example/
 
 ## 特性
 
-* Full support of [Sortable.js](https://github.com/RubaXa/Sortable) features:
-    * Supports touch devices
-    * Supports drag handles and selectable text
-    * Smart auto-scrolling
-    * Support drag and drop between different lists
-    * No jQuery dependency
-* Keeps in sync HTML and view model list
-* Compatible with Vue.js 2.0 transition-group
-* Cancellation support
-* Events reporting any changes when full control is needed
-* Reuse existing UI library components (such as [vuetify](https://vuetifyjs.com), [element](http://element.eleme.io/), or [vue material](https://vuematerial.io) etc...) and make them draggable using `element` and `componentData` props
+* 完全支持[Sortable.js](https://github.com/RubaXa/Sortable)的所有特性：
+    * 支持触摸设备
+    * 支持拖动手柄和可选文本
+    * 智能自动滚动
+    * 支持不同列表之间拖放
+    * 不依赖jQuery
+* 保持同步HTML和视图模型列表
+* 兼容Vue.js2.0的transition-group
+* 取消支持
+* 在需要完全控制时报告任何更改的事件
+* 重用现有的UI组件库 (such as [vuetify](https://vuetifyjs.com), [element](http://element.eleme.io/), or [vue material](https://vuematerial.io) etc...) 并使他们使用`element` and `componentData` props可拖动
 
 ## Backers
 
