@@ -160,18 +160,18 @@ computed: {
 是否是必须要的属性：`false`<br>
 默认值：`null`
 
-Alternative to the `value` prop, list is an array to be synchronized with drag-and-drop.<br>
-The main difference is that `list` prop is updated by draggable component using splice method, whereas `value` is immutable.<br>
-**Do not use in conjunction with value prop.**
+替代props中的value属性, list是一个与拖放同步的数组<br>
+主要区别在于`list` prop由可拖动组件使用splice方法更新，而`value`是不可变的<br>
+**不要与value prop一起使用**
 
 #### options
 类型：`Object`<br>
 是否是必须要的属性：`false`
 
-Option used to initialize the sortable object see: [sortable option documentation](https://github.com/RubaXa/Sortable#options)<br>
-Note that all the method starting by "on" will be ignored as draggable component expose the same API via events.
+用于初始化可排序对象的选项，请参阅：[sortable option documentation](https://github.com/RubaXa/Sortable#options)<br>
+请注意，所有以“on”开头的方法都将被忽略，因为可拖动组件通过事件公开相同的API
 
-As an example, a drag handle can be added using this binding `:options="{handle:'.handle'}"`. Read the linked documentation for other options available to you.
+例如，可以使用此方法绑定添加拖动句柄 `:options="{handle:'.handle'}"` ，阅读链接文档，了解可用的其他选项。
 
 #### element
 类型：`String`<br>
