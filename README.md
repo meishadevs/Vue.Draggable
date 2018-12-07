@@ -9,7 +9,7 @@
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 [![MIT License](https://img.shields.io/github/license/SortableJS/Vue.Draggable.svg)](https://github.com/SortableJS/Vue.Draggable/blob/master/LICENSE)
 
-允许拖放时同步视图模型数组的Vue组件(Vue.js 2.0)或指示(Vue.js 1.0)。
+允许拖放时同步视图模型数组的Vue组件(Vue.js 2.0)或指令(Vue.js 1.0)。
 
 基于并提供[Sortable.js](https://github.com/RubaXa/Sortable)的所有功能
 
