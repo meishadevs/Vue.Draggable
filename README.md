@@ -66,19 +66,19 @@ npm i -S vuedraggable
 
 ```
 
-[cf example section](https://github.com/SortableJS/Vue.Draggable/tree/master/examples)
+[cf示例部分](https://github.com/SortableJS/Vue.Draggable/tree/master/examples)
 
-## For Vue.js 2.0
+## 对于Vue.js 2.0
 
-Use draggable component:
+使用draggable组件:
 
-### Typical use:
+### 典型用途:
 ``` html
 <draggable v-model="myArray" :options="{group:'people'}" @start="drag=true" @end="drag=false">
    <div v-for="element in myArray" :key="element.id">{{element.name}}</div>
 </draggable>
 ```
-.vue file:
+.vue文件:
 ``` js
   import draggable from 'vuedraggable'
   ...
@@ -89,7 +89,7 @@ Use draggable component:
   ...
 ```
 
-### With `transition-group`:
+### 使用`transition-group`:
 ``` html
 <draggable v-model="myArray">
     <transition-group>
@@ -100,10 +100,10 @@ Use draggable component:
 </draggable>
 ```
 
-Draggable component should directly wrap the draggable elements, or a `transition-component` containing the draggable elements.
+Draggable组件应直接包装可拖动元素，或者 `transition-component` 包含可拖动元素。
 
 
-### With footer slot:
+### 带脚部插槽：
 ``` html
 <draggable v-model="myArray" :options="{draggable:'.item'}">
     <div v-for="element in myArray" :key="element.id" class="item">
@@ -112,7 +112,7 @@ Draggable component should directly wrap the draggable elements, or a `transitio
     <button slot="footer" @click="addPeople">Add</button>
 </draggable>
 ```
-### With header slot:
+### 带头部插槽：
 ``` html
 <draggable v-model="myArray" :options="{draggable:'.item'}">
     <div v-for="element in myArray" :key="element.id" class="item">
@@ -122,7 +122,7 @@ Draggable component should directly wrap the draggable elements, or a `transitio
 </draggable>
 ```
 
-### With Vuex:
+### 带Vuex：
 
 ```html
 <draggable v-model='myList'>
