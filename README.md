@@ -55,7 +55,7 @@ npm i -S vuedraggable
 
 **请注意在Vue2.0中使用的是vuedraggable，而不是在Vue1.0中使用的vue-draggable**
 
-### 直接在连接中引用
+### 使用 <script> 全局引用
 ```html
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
