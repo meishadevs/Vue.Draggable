@@ -148,7 +148,7 @@ computed: {
 是否是必须要的属性：`false`<br>
 默认值：`null`
 
-Input array to draggable component. Typically same array as referenced by inner element v-for directive.<br>
+输入数组到draggable组件中。Typically same array as referenced by inner element v-for directive.<br>
 This is the preferred way to use Vue.draggable as it is compatible with Vuex.<br>
 It should not be used directly but only though the `v-model` directive:
 ```html
