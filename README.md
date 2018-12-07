@@ -9,8 +9,7 @@
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 [![MIT License](https://img.shields.io/github/license/SortableJS/Vue.Draggable.svg)](https://github.com/SortableJS/Vue.Draggable/blob/master/LICENSE)
 
-
-Vue component (Vue.js 2.0) or directive (Vue.js 1.0) allowing drag-and-drop and synchronization with view model array.
+允许拖放时同步视图模型数组的Vue组件(Vue.js 2.0)或指示(Vue.js 1.0)。
 
 Based on and offering all features of [Sortable.js](https://github.com/RubaXa/Sortable)
 
