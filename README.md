@@ -45,7 +45,7 @@ https://david-desmaisons.github.io/draggable-example/
 
 ## 安装
 
-### 使用 npm 安装 或者 yarn 安装
+### 使用 npm 安装或者 yarn 安装
 
 ```bash
 yarn add vuedraggable
