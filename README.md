@@ -145,7 +145,7 @@ computed: {
 ### Props
 #### value
 类型：`Array`<br>
-Required: `false`<br>
+是否是必须要的属性：`false`<br>
 默认值：`null`
 
 Input array to draggable component. Typically same array as referenced by inner element v-for directive.<br>
@@ -157,7 +157,7 @@ It should not be used directly but only though the `v-model` directive:
 
 #### list
 类型：`Array`<br>
-Required: `false`<br>
+是否是必须要的属性：`false`<br>
 默认值：`null`
 
 Alternative to the `value` prop, list is an array to be synchronized with drag-and-drop.<br>
@@ -166,7 +166,7 @@ The main difference is that `list` prop is updated by draggable component using 
 
 #### options
 类型：`Object`<br>
-Required: `false`
+是否是必须要的属性：`false`
 
 Option used to initialize the sortable object see: [sortable option documentation](https://github.com/RubaXa/Sortable#options)<br>
 Note that all the method starting by "on" will be ignored as draggable component expose the same API via events.
@@ -183,7 +183,7 @@ See also [componentData](#componentdata) if you need to set props or event to th
 
 #### clone
 类型：`Function`<br>
-Required: `false`<br>
+是否是必须要的属性：`false`<br>
 默认值：`(original) => { return original;}`<br>
 
 Function called on the source component to clone element when clone option is true. The unique argument is the viewModel element to be cloned and the returned value is its cloned version.<br>
@@ -191,7 +191,7 @@ By default vue.draggable reuses the viewModel element, so you have to use this h
 
 #### move
 类型：`Function`<br>
-Require: `false`<br>
+是否是必须要的属性：`false`<br>
 默认值：`null`<br>
 
 If not null this function will be called in a similar way as [Sortable onMove callback](https://github.com/RubaXa/Sortable#move-event-object).
@@ -228,7 +228,7 @@ See complete example: [Cancel.html](https://github.com/SortableJS/Vue.Draggable/
 
 #### componentData
 类型：`Object`<br>
-Required: `false`<br>
+是否是必须要的属性：`false`<br>
 默认值：`null`<br>
 
 This props is used to pass additional information to child component declared by [element props](#element).<br>
