@@ -144,9 +144,9 @@ computed: {
 
 ### Props
 #### value
-Type: `Array`<br>
+类型：`Array`<br>
 Required: `false`<br>
-Default: `null`
+默认值：`null`
 
 Input array to draggable component. Typically same array as referenced by inner element v-for directive.<br>
 This is the preferred way to use Vue.draggable as it is compatible with Vuex.<br>
@@ -156,16 +156,16 @@ It should not be used directly but only though the `v-model` directive:
 ```
 
 #### list
-Type: `Array`<br>
+类型：`Array`<br>
 Required: `false`<br>
-Default: `null`
+默认值：`null`
 
 Alternative to the `value` prop, list is an array to be synchronized with drag-and-drop.<br>
 The main difference is that `list` prop is updated by draggable component using splice method, whereas `value` is immutable.<br>
 **Do not use in conjunction with value prop.**
 
 #### options
-Type: `Object`<br>
+类型：`Object`<br>
 Required: `false`
 
 Option used to initialize the sortable object see: [sortable option documentation](https://github.com/RubaXa/Sortable#options)<br>
@@ -174,25 +174,25 @@ Note that all the method starting by "on" will be ignored as draggable component
 As an example, a drag handle can be added using this binding `:options="{handle:'.handle'}"`. Read the linked documentation for other options available to you.
 
 #### element
-Type: `String`<br>
-Default: `'div'`
+类型：`String`<br>
+默认值：`'div'`
 
 HTML node type of the element that draggable component create as outer element for the included slot.<br>
 It is also possible to pass the name of vue component as element. In this case, draggable attribute will be passed to the create component.<br>
 See also [componentData](#componentdata) if you need to set props or event to the created component.
 
 #### clone
-Type: `Function`<br>
+类型：`Function`<br>
 Required: `false`<br>
-Default: `(original) => { return original;}`<br>
+默认值：`(original) => { return original;}`<br>
 
 Function called on the source component to clone element when clone option is true. The unique argument is the viewModel element to be cloned and the returned value is its cloned version.<br>
 By default vue.draggable reuses the viewModel element, so you have to use this hook if you want to clone or deep clone it.
 
 #### move
-Type: `Function`<br>
-Required: `false`<br>
-Default: `null`<br>
+类型：`Function`<br>
+Require: `false`<br>
+默认值：`null`<br>
 
 If not null this function will be called in a similar way as [Sortable onMove callback](https://github.com/RubaXa/Sortable#move-event-object).
 Returning false will cancel the drag operation.
@@ -227,9 +227,9 @@ checkMove: function(evt){
 See complete example: [Cancel.html](https://github.com/SortableJS/Vue.Draggable/blob/master/examples/Cancel.html), [cancel.js](https://github.com/SortableJS/Vue.Draggable/blob/master/examples/script/cancel.js)
 
 #### componentData
-Type: `Object`<br>
+类型：`Object`<br>
 Required: `false`<br>
-Default: `null`<br>
+默认值：`null`<br>
 
 This props is used to pass additional information to child component declared by [element props](#element).<br>
 Value:
