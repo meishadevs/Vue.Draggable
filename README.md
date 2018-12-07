@@ -41,11 +41,11 @@ https://david-desmaisons.github.io/draggable-example/
  <img width="190" style="margin-top: 10px;" src="https://flatlogic.com/assets/logo-d9e7751df5fddd11c911945a75b56bf72bcfe809a7f6dca0e32d7b407eacedae.svg">
  </a>
 
-Admin Dashboard Templates made with Vue, React and Angular.
+使用Vue，React和Angular制作的管理仪表板的模板。
 
-## Installation
+## 安装
 
-### With npm or yarn 
+### 使用 npm 安装 或者 yarn 安装
 
 ```bash
 yarn add vuedraggable
