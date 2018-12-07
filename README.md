@@ -11,17 +11,17 @@
 
 允许拖放时同步视图模型数组的Vue组件(Vue.js 2.0)或指示(Vue.js 1.0)。
 
-Based on and offering all features of [Sortable.js](https://github.com/RubaXa/Sortable)
+基于并提供[Sortable.js](https://github.com/RubaXa/Sortable)的所有功能
 
-## Demo
+## 示例
 
 ![demo gif](https://raw.githubusercontent.com/SortableJS/Vue.Draggable/master/example.gif)
 
-## Live Demo
+## 现场演示
 
 https://david-desmaisons.github.io/draggable-example/
 
-## Features
+## 特性
 
 * Full support of [Sortable.js](https://github.com/RubaXa/Sortable) features:
     * Supports touch devices
