@@ -33,9 +33,9 @@ https://david-desmaisons.github.io/draggable-example/
 * 兼容Vue.js2.0的transition-group
 * 取消支持
 * 在需要完全控制时报告任何更改的事件
-* 重用现有的UI组件库 (例如：[vuetify](https://vuetifyjs.com), [element](http://element.eleme.io/)，或者[vue material](https://vuematerial.io) 等等) 并使他们使用`element` and `componentData` props可拖动
+* 重用现有的UI组件库 (例如：[vuetify](https://vuetifyjs.com), [element](http://element.eleme.io/)，或者[vue material](https://vuematerial.io) 等) 并给他们设置props属性，属性值为`element` and `componentData`，使他们可以拖动
 
-## Backers
+## 支持者
 
  <a href="https://flatlogic.com/admin-dashboards">
  <img width="190" style="margin-top: 10px;" src="https://flatlogic.com/assets/logo-d9e7751df5fddd11c911945a75b56bf72bcfe809a7f6dca0e32d7b407eacedae.svg">
