@@ -186,7 +186,7 @@ See also [componentData](#componentdata) if you need to set props or event to th
 是否是必须要的属性：`false`<br>
 默认值：`(original) => { return original;}`<br>
 
-Function called on the source component to clone element when clone option is true. The unique argument is the viewModel element to be cloned and the returned value is its cloned version.<br>
+当clone选项为true时，函数调用源组件克隆元素。The unique argument is the viewModel element to be cloned and the returned value is its cloned version.<br>
 By default vue.draggable reuses the viewModel element, so you have to use this hook if you want to clone or deep clone it.
 
 #### move
