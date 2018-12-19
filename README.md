@@ -148,7 +148,7 @@ computed: {
 是否是必须要的属性：`false`<br>
 默认值：`null`
 
-输入数组到draggable组件中，通常与内部元素的v-for指令引用的数组相同<br>
+输入到draggable组件中的数组，通常与内部元素使用v-for指令引用的数组相同<br>
 这是使用Vue.draggable的首选方法，因为它与Vuex兼容<br>
 它不应该直接使用，只能通过`v-model`指令：
 ```html
